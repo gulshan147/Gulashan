@@ -111,7 +111,7 @@ async def redeem(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             save_keys()
             response = f"✅Key redeemed successfully! Access granted until: {users[user_id]} OWNER- @Gulshan_Alam..."
         else:
-            response = f"Invalid or expired key buy from OWNER- @Ninja2399..."
+            response = f"Invalid or expired key buy from OWNER- @Gulshan_Alam..."
     else:
         response = f"Usage: /redeem <key> if you don't  have  buy from  @Gulshan_Alam..."
 
@@ -226,7 +226,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
     # Message with options
     response = (
-        "Welcome to the Flooding Bot by OWNER- @Ninja2399...! Here are the available commands:\n\n"
+        "Welcome to the Flooding Bot by OWNER- @Gulshan_Alam...! Here are the available commands:\n\n"
         "Admin Commands:\n"
         "/genkey <amount> <hours/days> - Generate a key with a specified validity period.\n"
         "/allusers - Show all authorized users.\n"
